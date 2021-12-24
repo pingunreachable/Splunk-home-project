@@ -1,0 +1,5 @@
+# EdgeSwitch-BOXSERVICES-PRIVATE-MIB used
+# https://bestmonitoringtools.com/mibdb/mibdb_search.php?mib=EdgeSwitch-BOXSERVICES-PRIVATE-MIB
+
+Object Name OID
+boxServicesTempSensorTemperature 	1.3.6.1.4.1.4413.1.1.43.1.8.1.5
