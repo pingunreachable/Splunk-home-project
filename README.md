@@ -1,1 +1,1 @@
-# Splunk-home-project
+# Splunk home project
