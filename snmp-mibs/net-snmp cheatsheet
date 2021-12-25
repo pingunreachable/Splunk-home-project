@@ -1,0 +1,11 @@
+===Convert MIBs to OIDs===
+snmptranslate -On -IR hrMemorySize.0
+
+===Convert OIDs to MIBs===
+snmptranslate .1.3.6.1.2.1.25.3.3.1.2.196608
+
+===Poll SMNP using MIBs===
+snmpwalk -v <snmp version> -c <community string> <ip address> HOST-RESOURCES-MIB::hrProcessorTable
+
+===Display all OID in table===
+snmptable -v <snmp version> -c <community string> <ip address> 1.3.6.1.2.1.2.2
